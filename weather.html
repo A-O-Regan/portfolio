@@ -13,11 +13,12 @@
 $.ajax(settings).done(function (response) {
   console.log(response);
   var content = response.wind.speed;
-  $("windSpeed").append(content);
+$("#windSpeed").append(content);
 });
       </script>
    </head>
    <body>
-      <h1>Sample Page</h1>          
-   </body>
+    <h1>The weather in Santa Clara today</h1>
+    <div id="windSpeed">Wind speed: </div>
+ </body>
 </html>
