@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr  {
+    width: 500px;
+}
+#errors {
+    color: crimson;
+}
+
+#board {
+    width: 447px;
+    height: 450px;
+    color:aqua;
+    background-image: url('CR_united.png');
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 0.8px solid lightcyan;
+
+    /* Text in tiles */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#number-pad {
+    width: 450px;
+    height: 50px;
+
+    background-color: aliceblue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+
+    /* Text in tiles */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    color: white;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid white;
+}
+
+.vertical-line {
+    border-right: 2.5px solid white;
+}
